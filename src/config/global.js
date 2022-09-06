@@ -65,7 +65,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: '<em>Balanced Scorecard</em>',
+        titulo: '<em>Balanced scorecard</em>',
         desarrolloContenidos: true,
       },
       {
@@ -132,12 +132,12 @@ export default {
       //  nombreRuta: 'sintesis',
       //  desarrolloContenidos: true,
       //},
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
+      //{
+      //  nombreRuta: 'actividad',
+      //  icono: 'far fa-question-circle',
+      //  titulo: 'Actividad didáctica',
+      //  desarrolloContenidos: true,
+      //},
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -167,21 +167,21 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema: 'Monitoreo y seguridad de carga en el transporte',
       referencia:
         'Sanchez, M. D. (2020). <em>Manual de prevención carga y estiba en el transporte</em>. Tec sup prl.',
-      tipo: '',
-      link: '',
+      tipo: 'PDF',
+      descarga: '/downloads/anexo2.pdf',
     },
     {
-      tema: '',
+      tema: 'Gestión de riesgos',
       referencia:
         'Iso (2018). <em>Norma Internacional Iso 31000</em>. Segunda edición.',
-      tipo: '',
-      link: '',
+      tipo: 'PDF',
+      descarga: '/downloads/anexo1.pdf',
     },
     {
-      tema: '',
+      tema: 'Análisis y resultados en la operación del servicio',
       referencia:
         'Virtual Training Lteam (2016). <em>Informes de gestión</em>.',
       tipo: 'Video',
@@ -290,7 +290,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Sofia Suarez Suarez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -307,7 +307,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

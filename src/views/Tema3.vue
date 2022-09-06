@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 #[i Balanced Scorecard]
+      h1 #[i Balanced scorecard]
     figure.mb-5
       img(src='@/assets/curso/tema3/img1.png')
     p.mb-5 El Balanced Scorecard (BSC) es un método de gerencia en el cual se integra los aspectos de planificación y dirección, en donde se puede relacionar estrategias y objetivos con indicadores y metas para conseguir el logro de la formulación e implementación estratégica.
@@ -83,7 +83,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h4.text-center.mb-5 Perspectivas en el BSC
-              p Usualmente se suelen identificar cuatro perspectivas en un BSC, no es necesario que siempre están todas; estas cuatro perspectivas son las más usadas y pueden aplicarse casi a toda clase de empresas, y no forman una condición indispensable para crear un modelo de negocios.
+              p Usualmente se suelen identificar cuatro perspectivas en un BSC, no es necesario que siempre estén todas; estas cuatro perspectivas son las más usadas y pueden aplicarse casi a toda clase de empresas, y no forman una condición indispensable para crear un modelo de negocios.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img4.png')})`}")
       .col-11.col-lg-4.mb-4.mb-lg-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")

@@ -37,7 +37,7 @@
         .row
           .col-12
             h4.text-center.mb-4 Rotación de inventario
-            p.text-center Relación del consumo directamente con el Stock.
+            p.text-center Relación del consumo directamente con el #[i stock].
       .col-lg.p-4.bg-color7.m-1
         .row.justify-content-center
           .col-8

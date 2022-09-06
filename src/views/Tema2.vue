@@ -44,7 +44,7 @@
         .row.justify-content-center.mb-3
           .col-6.mb-4
             img(src='@/assets/curso/tema2/img5.svg' alt='AvatarTop')
-        p.text-center Se controla de mejor manera el transporte, dinamizando la gestión de stocks y así proporcionando mejor servicio.
+        p.text-center Se controla de mejor manera el transporte, dinamizando la gestión de #[i stocks] y así proporcionando mejor servicio.
       .tarjeta.color-acento-contenido.p-4
         .row.justify-content-center.mb-3
           .col-6.mb-4

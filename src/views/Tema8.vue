@@ -154,11 +154,11 @@
           .col-4
             figure.mb-5
               img(src='@/assets/curso/tema8/img3.svg').m-auto
-        p Documentación no acorde a la mercancía recibida, es decir, una factura que registre un producto o cantidad diferente a la establecida en la orden de compra
+        p Documentación no acorde a la mercancía recibida, es decir, una factura que registre un producto o cantidad diferente a la establecida en la orden de compra.
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Figura 6]. #[i Formato de recepción de Bienes y Mercancías]
+          p.mb-0 #[b Figura 6]. #[i Formato de recepción de bienes y mercancías]
         figure.mb-4
           img(src='@/assets/curso/tema8/img4.svg')
         p Nota. Formato de Recepción de Bienes y Mercancías. Estremadoyro, A. (2017).
@@ -274,7 +274,7 @@
             figure
               img(src='@/assets/curso/tema3/img1.svg')
           .col
-            p.mb-0 #[b Validación del Despacho]
+            p.mb-0 #[b Validación del despacho]
         p Para validar la correcta forma de despacho de mercancías es conveniente verificar los siguientes aspectos, ver figura 7:
         ul.lista-ul
           li 
@@ -300,7 +300,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p #[b Enlace web.] Información complementaria en el enlace: 
+            p #[b Enlace web.] Información complementaria en el enlace
 
 </template>
 
