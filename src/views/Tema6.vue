@@ -22,10 +22,10 @@
         figure
           img(src='@/assets/curso/tema6/img1.svg')
     .row.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0.order-2.order-lg-1
         figure
-          img(src='@/assets/curso/tema6/img2.png')
-      .col-lg-8
+          img(src='@/assets/curso/tema6/img2.png' style="width: 350px").m-auto
+      .col-lg-8.order-1.order-lg-2
         p.mb-4 Según la Norma ISO 31000 (ver norma en anexos), la gestión de riesgos cumple con los siguientes principios: 
         ul.lista-ul
           li 
@@ -82,7 +82,7 @@
     TabsA.color-acento-botones
       .tarjeta.color-acento-botones.p-4(titulo="Identificación de riesgos potenciales")
         .row
-          .col-lg-auto
+          .col-lg-auto.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema6/img3.png')
           .col-lg
@@ -90,7 +90,7 @@
             p Se determina los factores que alteran la cadena de suministro como los desastres naturales, falta de proveedores, cambios legislativos.
       .tarjeta.color-acento-botones.p-4(titulo="Evaluación y priorización de riesgos")
         .row
-          .col-lg-auto
+          .col-lg-auto.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema6/img4.png')
           .col-lg
@@ -98,7 +98,7 @@
             p Es decir, por tipo cuantitativo (que se basa en información histórica, medible y pronosticable) o cualitativo (que se basa en el juicio experto); por gravedad o severidad (insignificante, moderado o fuerte); por frecuencia (nula, rara, probable o casi segura) y por velocidad (o la capacidad de detección a tiempo).
       .tarjeta.color-acento-botones.p-4(titulo="Prevención y solución de riesgos")
         .row
-          .col-lg-auto
+          .col-lg-auto.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema6/img5.png')
           .col-lg
@@ -106,7 +106,7 @@
             p Propone soluciones para aliviar y/o  evitar riesgos, como por ejemplo afianzar los sistemas de evaluación, compra de seguros contra riesgos, uso obligatorio de elementos de seguridad.
       .tarjeta.color-acento-botones.p-4(titulo="Control")
         .row
-          .col-lg-auto
+          .col-lg-auto.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema6/img6.png')
           .col-lg

@@ -19,39 +19,39 @@
             p Los indicadores pueden medirse de forma gráfica para acelerar las decisiones y la evaluación de los recursos y procedimientos.
             p Los KPIs en el transporte de carga deben ser mensurables, cuantificables, específicos, temporales y relevantes.
     p.text-center.mb-5 #[b Los indicadores pueden ser:]
-    .row.mb-5
-      .col-lg.p-4.bg-color5.m-1
+    .row.justify-content-center.mb-5
+      .col-10.col-md-8.col-lg.p-4.bg-color5.m-1
         .row.justify-content-center
           .col-8
             figure.fig-1
-              img(src='@/assets/curso/tema7/img2.svg')
+              img(src='@/assets/curso/tema7/img2.svg' style="width: 150px").m-auto
         .row
           .col-12
             h4.text-center.mb-4 Plazo de entrega o #[i Lead Time]
             p.text-center Se centraliza en el tiempo transcurrido desde que el producto se despacha del almacén hasta llegar al cliente.
-      .col-lg.p-4.bg-color6.m-1
+      .col-10.col-md-8.col-lg.p-4.bg-color6.m-1
         .row.justify-content-center
           .col-8
             figure.fig-1
-              img(src='@/assets/curso/tema7/img3.svg')
+              img(src='@/assets/curso/tema7/img3.svg' style="width: 150px").m-auto
         .row
           .col-12
             h4.text-center.mb-4 Rotación de inventario
             p.text-center Relación del consumo directamente con el #[i stock].
-      .col-lg.p-4.bg-color7.m-1
+      .col-10.col-md-8.col-lg.p-4.bg-color7.m-1
         .row.justify-content-center
           .col-8
             figure.fig-1
-              img(src='@/assets/curso/tema7/img4.svg')
+              img(src='@/assets/curso/tema7/img4.svg' style="width: 150px").m-auto
         .row
           .col-12
             h4.text-center.mb-4 Tasa de reemplazo de empleados
             p.text-center Se refiere a la diferencia entre admisiones y retiros o despidos.
-      .col-lg.p-4.bg-color8.m-1
+      .col-10.col-md-8.col-lg.p-4.bg-color8.m-1
         .row.justify-content-center
           .col-8
             figure.fig-1
-              img(src='@/assets/curso/tema7/img5.svg')
+              img(src='@/assets/curso/tema7/img5.svg' style="width: 150px").m-auto
         .row
           .col-12
             h4.text-center.mb-4 Agotamiento de inventario
@@ -62,7 +62,7 @@
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Figura 4]. #[i KPI´s]
         figure
-          img(src='@/assets/curso/tema7/img2.png')
+          img(src='@/assets/curso/tema7/img2.png' style="width: 350px").m-auto
       .col-lg-6
         p.mb-4 Los cuatro KPIs importantes, que permiten determinar el desarrollo del plan de transporte son:
         LineaTiempoD.color-primario
@@ -95,57 +95,57 @@
       .col-lg.mb-4.mb-lg-0
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Misión, visión y valores")
-            .row.align-items-center
-              .col-auto
+            .row.justify-content-center.align-items-center
+              .col-4.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema7/img6.svg')
-              .col
+                  img(src='@/assets/curso/tema7/img6.svg' style="width: 90px").m-auto
+              .col-lg
                 p.mb-0 Definen la organización y muestran la estrategia a un alto nivel. Es indispensable que todos los empleados de la empresa conozcan la misión, visión y valores ya que, sin estos, es imposible que exista y que se genere una alineación de la estrategia.
           .row(titulo="Índice de contenido")
-            .row.align-items-center
-              .col-auto
+            .row.justify-content-center.align-items-center
+              .col-4.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema7/img7.svg')
-              .col
+                  img(src='@/assets/curso/tema7/img7.svg' style="width: 90px").m-auto
+              .col-lg
                 p.mb-0 Existen informes demasiado extensos impidiendo en algunos casos la debida revisión del contenido, para ello se debe realizar al inicio el índice permitiendo encontrar la sección requerida o necesitada de una manera más sencilla.
           .row(titulo="Vistas del cuadro de mando organizacional")
-            .row.align-items-center
-              .col-auto
+            .row.justify-content-center.align-items-center
+              .col-4.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema7/img8.svg')
-              .col
+                  img(src='@/assets/curso/tema7/img8.svg' style="width: 90px").m-auto
+              .col-lg
                 p.mb-0 Un buen informe de gestión contiene toda la información que la gerencia requiere para tomar decisiones. Para facilitarles la tarea, se debe asegurarse de incluir una descripción general de alto nivel del cuadro de mando de la organización o departamento. La información del cuadro de mando debe estructurarse en el orden en que se leerá. Por ejemplo, un cuadro de mando integral generalmente inicia con la perspectiva financiera, luego, por la perspectiva del cliente, la perspectiva interna y finalmente la perspectiva de aprendizaje y crecimiento. Exponer resumidamente el estado de cada objetivo, de esta manera el lector obtendrá brevemente una noción general.
           .row(titulo="Objetivos detallados")
-            .row.align-items-center
-              .col-auto
+            .row.justify-content-center.align-items-center
+              .col-4.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema7/img9.svg')
-              .col
+                  img(src='@/assets/curso/tema7/img9.svg' style="width: 90px").m-auto
+              .col-lg
                 p.mb-0 Debe contener mínimo una página de detalles referentes a los objetivos estratégicos, anexar un breve análisis, recomendaciones e información acerca de los indicadores de apoyo.
           .row(titulo="Gráficos")
-            .row.align-items-center
-              .col-auto
+            .row.justify-content-center.align-items-center
+              .col-4.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema7/img10.svg')
-              .col
+                  img(src='@/assets/curso/tema7/img10.svg' style="width: 90px").m-auto
+              .col-lg
                 p.mb-0 Los gráficos son la manera más sencilla de explicar brevemente el rendimiento cuantitativo, a modo de instantánea, es decir es un recurso infaltable.
           .row(titulo="Resumen del proyecto de alto nivel")
-            .row.align-items-center
-              .col-auto
+            .row.justify-content-center.align-items-center
+              .col-4.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema7/img11.svg')
-              .col
+                  img(src='@/assets/curso/tema7/img11.svg' style="width: 90px").m-auto
+              .col-lg
                 p.mb-0 Es importante realizar un seguimiento de los proyectos que impulsan la estrategia. Por lo tanto, para cada información crítica adicional se pueden incluir informes de estado, como el porcentaje completado y el presupuesto gastado.
           .row(titulo="Versión en línea del informe de gestión")
-            .row.align-items-center
-              .col-auto
+            .row.justify-content-center.align-items-center
+              .col-4.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema7/img12.svg')
-              .col
+                  img(src='@/assets/curso/tema7/img12.svg' style="width: 90px").m-auto
+              .col-lg
                 p.mb-0 Cuando se realiza un informe en PDF es difícil realizar ajustes, por lo que los convierte en obsoletos; para ello se recomienda usar un software basado en la nube, de esta manera permite realizar cambios y mantener el informe actualizado.
       .col-lg-auto
         figure
-          img(src='@/assets/curso/tema7/img4.png')
+          img(src='@/assets/curso/tema7/img4.png' style="width: 350px").m-auto
 
 </template>
 

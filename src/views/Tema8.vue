@@ -131,8 +131,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Figura 5]. #[i Validación física]
         figure
-          img(src='@/assets/curso/tema8/img1.svg')
-      .col-lg-6
+          img(src='@/assets/curso/tema8/img1.svg' style="width: 350px").m-auto
+      .col-lg-6.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema8/img9.png')
     .row.align-items-center.mb-4
@@ -142,14 +142,14 @@
       .col
         p.mb-0 #[b Validación documental]
     p.mb-5 La validación de los documentos de un embarque (ver figura 6) es igual de fundamental que el control físico de las cantidades y referencias recibidas, puesto que de esto depende mantener la legalidad de la comercialización de las mercancías, tener su correcto registro contable y un buen control sobre los inventarios. Se pueden presentar situaciones como:
-    .row.mb-5
-      .col-lg-6.p-4.p-lg-5.bg-color9
+    .row.justify-content-center.mb-5
+      .col-md-8.col-lg-6.p-4.p-lg-5.bg-color9
         .row.justify-content-center
           .col-4
             figure.mb-5
               img(src='@/assets/curso/tema8/img2.svg').m-auto
         p Ausencia de documentación que valide la mercancía a recibir, como la factura de venta, registro de nacionalización (en el caso de las importaciones), o un permiso especial de transporte para materiales restringidos por la ley (medicamentos, químicos, etc.). 
-      .col-lg-6.p-4.p-lg-5.bg-color10
+      .col-md-8.col-lg-6.p-4.p-lg-5.bg-color10
         .row.justify-content-center
           .col-4
             figure.mb-5
@@ -171,22 +171,22 @@
       .col-lg-2.mb-4.mb-lg-0
         p.mb-0.text-center #[b Estas condiciones son:]
       .col-lg-9
-        .row
-          .col-lg.p-4.m-1.bg-color11.shadow.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-10.col-md-6.col-lg.p-4.m-1.bg-color11.shadow.mb-4.mb-lg-0
             figure.mb-2
-              img(src='@/assets/curso/tema8/img6.svg').m-auto
+              img(src='@/assets/curso/tema8/img6.svg' style="width: 150px").m-auto
             p.text-center.mb-0 Precisión en las cantidades
-          .col-lg.p-4.m-1.bg-color11.shadow.mb-4.mb-lg-0
+          .col-10.col-md-6.col-lg.p-4.m-1.bg-color11.shadow.mb-4.mb-lg-0
             figure.mb-2
-              img(src='@/assets/curso/tema8/img7.svg').m-auto
+              img(src='@/assets/curso/tema8/img7.svg' style="width: 150px").m-auto
             p.text-center.mb-0 Despacho de las referencias correctas
-          .col-lg.p-4.m-1.bg-color11.shadow.mb-4.mb-lg-0
+          .col-10.col-md-6.col-lg.p-4.m-1.bg-color11.shadow.mb-4.mb-lg-0
             figure.mb-2
-              img(src='@/assets/curso/tema8/img8.svg').m-auto
+              img(src='@/assets/curso/tema8/img8.svg' style="width: 150px").m-auto
             p.text-center.mb-0 Cumplimiento de los tiempos y lugar de entrega.
-          .col-lg.p-4.m-1.bg-color11.shadow
+          .col-10.col-md-6.col-lg.p-4.m-1.bg-color11.shadow
             figure.mb-2
-              img(src='@/assets/curso/tema8/img9.svg').m-auto
+              img(src='@/assets/curso/tema8/img9.svg' style="width: 150px").m-auto
             p.text-center.mb-0 Documentación según las condiciones pactadas.
     .row.mb-5
       .col-lg.mb-4.mb-lg-0
@@ -214,8 +214,8 @@
           img(src='@/assets/curso/tema3/img1.svg')
       .col
         p.mb-0 #[b Objetivos del despacho de mercancías]
-    .row.mb-5
-      .col-lg-3.mb-4.mb-lg-0
+    .row.justify-content-center.mb-5
+      .col-md-7.col-lg-3.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -228,7 +228,7 @@
                       figure
                         img(src='@/assets/curso/tema8/img10.svg')
                     p Garantizar que la mercancía despachada cumpla con todos los requisitos exigidos por el cliente. 
-      .col-lg-3.mb-4.mb-lg-0
+      .col-md-7.col-lg-3.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -241,7 +241,7 @@
                       figure
                         img(src='@/assets/curso/tema8/img10.svg')
                     p Identificar oportunamente las inconformidades que vayan en contra del correcto y adecuado servicio de la empresa.
-      .col-lg-3.mb-4.mb-lg-0
+      .col-md-7.col-lg-3.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -254,7 +254,7 @@
                       figure
                         img(src='@/assets/curso/tema8/img10.svg')
                     p Servir de filtro para mantener la consistencia de los inventarios manejados en el centro de distribución.
-      .col-lg-3
+      .col-md-7.col-lg-3
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor

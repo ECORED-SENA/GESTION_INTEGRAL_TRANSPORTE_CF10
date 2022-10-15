@@ -31,7 +31,7 @@
     .row.mb-4
       .col-lg-auto.mb-4.mb-lg-0
         figure
-          img(src='@/assets/curso/tema3/img3.png')
+          img(src='@/assets/curso/tema3/img3.png' style="width: 350px").m-auto
       .col-lg
         p Existen otras ventajas como:
         ul.lista-ul
@@ -77,7 +77,7 @@
             p.mb-0 Mide las decisiones estratégicas para verificar si la asignación de recursos de la organización está siendo efectiva.
     p.mb-5 Algunas características del BSC:
     .row.justify-content-center.mb-4
-      .col-11.col-lg-4.mb-4.mb-lg-0
+      .col-11.col-md-7.col-lg-4.mb-4.mb-lg-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -85,7 +85,7 @@
               h4.text-center.mb-5 Perspectivas en el BSC
               p Usualmente se suelen identificar cuatro perspectivas en un BSC, no es necesario que siempre estén todas; estas cuatro perspectivas son las más usadas y pueden aplicarse casi a toda clase de empresas, y no forman una condición indispensable para crear un modelo de negocios.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img4.png')})`}")
-      .col-11.col-lg-4.mb-4.mb-lg-0
+      .col-11.col-md-7.col-lg-4.mb-4.mb-lg-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -93,7 +93,7 @@
               h4.text-center.mb-5 Perspectiva financiera
               p Durante mucho tiempo los indicadores financieros han sido muy usados ya que muestran lo que está sucediendo con las inversiones y el valor añadido económico, incluso, todas las medidas que forman parte de la relación causa-efecto, culminan en la mejor actuación financiera.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img5.png')})`}")
-      .col-11.col-lg-4
+      .col-11.col-md-7.col-lg-4
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -102,7 +102,7 @@
               p Como parte del modelo comercial, se determinan los clientes a los que se dirige el servicio o el producto. El punto de vista del cliente refleja el mercado en el que se compite. Generando información relevante para generar, adquirir, retener y satisfacer a los clientes, ganar participación en el mercado, rentabilidad, etc.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img6.png')})`}")
     .row.justify-content-center.mb-5
-      .col-11.col-lg-4.mb-4.mb-lg-0
+      .col-11.col-md-7.col-lg-4.mb-4.mb-lg-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -110,7 +110,7 @@
               h4.text-center.mb-5 Perspectiva procesos internos
               p Para lograr los objetivos financieros y de los clientes, ciertos procesos que empoderan deben ejecutarse con excelencia. Aquellos procesos que deben ser, los gerentes los identifican y les da una especial atención de manera que se alcancen las metas de los accionistas y clientes.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img7.png')})`}")
-      .col-11.col-lg-4
+      .col-11.col-md-7.col-lg-4
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor

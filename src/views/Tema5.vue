@@ -15,7 +15,7 @@
       .col-lg-6.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema5/img1.svg')
-      .col-lg-6
+      .col-lg-6.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema5/img2.svg')
     p.mb-5 Es importante, a la hora de comprender el proceso de auditoría interna, tener claro los siguiente postulados:

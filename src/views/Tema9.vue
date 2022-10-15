@@ -23,7 +23,7 @@
     p Toda la carga debe disponerse en el vehículo que la va a transportar de manera adecuada minimizando accidentes a las personas y a la mercancía además de proveer un desplazamiento adecuado dentro y fuera del vehículo. La sujeción debe realizarse de manera segura teniendo en cuenta el peso, las dimensiones y puntos de anclaje que se usarán para este procedimiento.
     p.mb-5 Es de precisar que todo transporte de carga o mercancía debe ser siempre embalado con una manipulación y una estiba adecuada.
     .row.justify-content-center.mb-5
-      .col-lg-5.mb-4(data-aos="zoom-in")
+      .col-md-8.col-lg-5.mb-4(data-aos="zoom-in")
         .crd_hover_txt1
           .crd_hover_txt--img.mb-0         
             img(src="@/assets/curso/tema9/img4.png")
@@ -40,7 +40,7 @@
                         img(src='@/assets/curso/tema9/img1.svg')
                     .col
                       p #[b Es la colocación y distribución de las mercancías de forma segura y conveniente que puede ser un contenedor, una caja de camión, etc., o un vehículo de transporte.]
-      .col-lg-5.mb-4(data-aos="zoom-in")
+      .col-md-8.col-lg-5.mb-4(data-aos="zoom-in")
         .crd_hover_txt1
           .crd_hover_txt--img.mb-0         
             img(src="@/assets/curso/tema9/img3.png")
@@ -58,21 +58,21 @@
                     .col
                       p #[b Es el proceso necesario para sujetar, bloqueando firmemente mediante instrumentos precisos todo tipo todo tipo de mercancías que se transporten con medios marítimos, terrestres o aéreos, buscando prevenir los daños ocasionados por desplazamientos bruscos o volcamientos del contenido.]
     .row.justify-content-center
-      .col-lg-10.bg-color15
+      .col-md-9.col-lg-10.bg-color15
         .row.align-items-center
           .col-4.col-lg-auto.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema9/img2.svg')
+              img(src='@/assets/curso/tema9/img2.svg' style="width:90px")
           .col-lg
             h4.mb-4 Manual de prevención carga y estiba de transporte
-            p El siguiente manual, contiene información sobre las técnicas mencionadas en la temática anterior.
+            p.mb-5 El siguiente manual, contiene información sobre las técnicas mencionadas en la temática anterior.
             .row.justify-content-center
               .col-lg-auto
                 a.anexo.mb-4(:href="obtenerLink('downloads/anexo2.pdf')" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
-                    p #[b Anexo]. Manual de prevención carga y estiba de transporte.
+                    p.mb-0 #[b Anexo]. Manual de prevención carga y estiba de transporte.
 
 </template>
 

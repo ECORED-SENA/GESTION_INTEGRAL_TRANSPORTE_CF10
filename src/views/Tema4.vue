@@ -9,7 +9,7 @@
     p.mb-5 Es nombrado así por su creador Edwards Deming, es un método cíclico que se compone de cuatro fases. El principal propósito de su implementación es colaborar y ejecutar procesos eficientes, hasta llegar a un objetivo. A medida que se implementa este método, la productividad, la participación en el mercado y la rentabilidad se ven progresivamente aumentar con la implementación de estas fases:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/UQJcmopnXeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mb-4
       .col-12.bg-color3.p-4
         .row

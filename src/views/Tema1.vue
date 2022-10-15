@@ -80,50 +80,50 @@
       .col-lg
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Mejora constante de los procesos")
-            .row.align-items-center
-              .col-auto
+            .row.justify-content-center.align-items-center
+              .col-4.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img2.svg')
-              .col
+                  img(src='@/assets/curso/tema1/img2.svg' style="width: 90px").m-auto
+              .col-lg
                 p.mb-0 Todos los procesos se pueden observar de manera virtual pudiendo ser corregidos y evaluados permanentemente dando oportunidad de hacer correcciones a tiempo y evitando errores en el momento de la puesta en marcha.
           .row(titulo="Ahorro de costes")
-            .row.align-items-center
-              .col-auto
+            .row.justify-content-center.align-items-center
+              .col-4.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img3.svg')
-              .col
+                  img(src='@/assets/curso/tema1/img3.svg' style="width: 90px").m-auto
+              .col-lg
                 p.mb-0 El equipo profesional puede desarrollar prototipos virtuales evitando la creación de modelos físicos que conllevan a costos elevados.
           .row(titulo="Prevención de fallos")
-            .row.align-items-center
-              .col-auto
+            .row.justify-content-center.align-items-center
+              .col-4.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img4.svg')
-              .col
+                  img(src='@/assets/curso/tema1/img4.svg' style="width: 90px").m-auto
+              .col-lg
                 p.mb-0 Se pueden identificar diferentes fallas en el proceso de la operación y así evitar interrupciones en el servicio.
           .row(titulo="Incremento de la productividad")
-            .row.align-items-center
-              .col-auto
+            .row.justify-content-center.align-items-center
+              .col-4.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img5.svg')
-              .col
+                  img(src='@/assets/curso/tema1/img5.svg' style="width: 90px").m-auto
+              .col-lg
                 p.mb-0 La simulación puede aportar a las empresas una disminución en un 50% el tiempo de lanzamiento de un producto al mercado (time to market) y aumentando en un 20% la productividad.
           .row(titulo="Planificación del futuro")
-            .row.align-items-center
-              .col-auto
+            .row.justify-content-center.align-items-center
+              .col-4.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img6.svg')
-              .col
+                  img(src='@/assets/curso/tema1/img6.svg' style="width: 90px").m-auto
+              .col-lg
                 p.mb-0 El análisis de datos y la simulación crean una conducta predictiva e impulsan el perfeccionamiento de todos los procesos ubicando a una empresa u organización delante de la competencia.
           .row(titulo="Monitorizar decisiones")
-            .row.align-items-center
-              .col-auto
+            .row.justify-content-center.align-items-center
+              .col-4.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img7.svg')
-              .col
+                  img(src='@/assets/curso/tema1/img7.svg' style="width: 90px").m-auto
+              .col-lg
                 p.mb-0 Los procesos operan articulados, por tal razón la comunicación es en tiempo real y así la toma de decisiones siempre es más confiable.
       .col-lg-auto
         figure
-          img(src='@/assets/curso/tema1/img4.png')
+          img(src='@/assets/curso/tema1/img4.png' style="width: 350px").m-auto
     Separador
     #t_1_2
     .titulo-segundo.color-acento-contenido

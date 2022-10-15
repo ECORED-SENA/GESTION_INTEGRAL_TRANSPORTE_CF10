@@ -19,36 +19,36 @@
               .bloque-texto-a__texto.p-4
                 p.mb-0 Al realizar una adecuada trazabilidad las empresas pueden generar mayor valor a la operación y obtienen información que les permiten tomar decisiones acertadas, corrigiendo las fallas que se presentan en el desarrollo de esta.
     p.mb-5 A través de los resultados obtenidos de la trazabilidad se puede alcanzar los siguientes beneficios:
-    SlyderF(columnas="col-lg-6 col-xl-4")
+    SlyderF(columnas="col-9 col-lg-6 col-xl-4")
       .tarjeta.color-acento-contenido.p-4
         .row.justify-content-center.mb-3
           .col-6.mb-4
-            img(src='@/assets/curso/tema2/img1.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema2/img1.svg' alt='AvatarTop' style="width: 120px").m-auto
         p.text-center Contribuye a mejorar el control de la mercancía de la empresa.
       .tarjeta.color-acento-contenido.p-4
         .row.justify-content-center.mb-3
           .col-6.mb-4
-            img(src='@/assets/curso/tema2/img2.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema2/img2.svg' alt='AvatarTop' style="width: 120px").m-auto
         p.text-center Facilita la automatización de la información de la entrada de los productos.
       .tarjeta.color-acento-contenido.p-4
         .row.justify-content-center.mb-3
           .col-6.mb-4
-            img(src='@/assets/curso/tema2/img3.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema2/img3.svg' alt='AvatarTop' style="width: 120px").m-auto
         p.text-center Facilita la utilización de la información.
       .tarjeta.color-acento-contenido.p-4
         .row.justify-content-center.mb-3
           .col-6.mb-4
-            img(src='@/assets/curso/tema2/img4.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema2/img4.svg' alt='AvatarTop' style="width: 120px").m-auto
         p.text-center Agiliza la velocidad en los datos de transmisión.
       .tarjeta.color-acento-contenido.p-4
         .row.justify-content-center.mb-3
           .col-6.mb-4
-            img(src='@/assets/curso/tema2/img5.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema2/img5.svg' alt='AvatarTop' style="width: 120px").m-auto
         p.text-center Se controla de mejor manera el transporte, dinamizando la gestión de #[i stocks] y así proporcionando mejor servicio.
       .tarjeta.color-acento-contenido.p-4
         .row.justify-content-center.mb-3
           .col-6.mb-4
-            img(src='@/assets/curso/tema2/img6.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema2/img6.svg' alt='AvatarTop' style="width: 120px").m-auto
         p.text-center Se aumenta la seguridad en la preparación de los pedidos.
 
 </template>
