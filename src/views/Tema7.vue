@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 7
       h1 Análisis y resultados en la operación del servicio
-    .row.bg-color4.mb-2
-      .col-12.p-5
+    .row.bg-color4.mb-2(data-aos="fade-right")
+      .col-12.px-5
         p Al evaluar el cumplimiento de los objetivos fijados en el plan de transporte se debe hacer un análisis de los resultados obtenidos a través del tiempo en el desarrollo de la operación ya que la realidad va cambiando y se hace necesario estar verificando las condiciones del momento. 
         p.mb-5 Para cumplir con la evaluación de los procedimientos de operación debemos analizar los indicadores de gestión que nos evalúan y miden procesos, así como su desempeño.
         .row.justify-content-center
@@ -18,52 +18,60 @@
             p Al tener en cuenta los KPIs se puede tener confianza en que se puede monitorear y verificar los procesos en el plan de transportes de forma acertada y correcta ya que nos permiten hacer una revisión adecuada y tomar decisiones en el momento justo.
             p Los indicadores pueden medirse de forma gráfica para acelerar las decisiones y la evaluación de los recursos y procedimientos.
             p Los KPIs en el transporte de carga deben ser mensurables, cuantificables, específicos, temporales y relevantes.
-    p.text-center.mb-5 #[b Los indicadores pueden ser:]
-    .row.justify-content-center.mb-5
-      .col-10.col-md-8.col-lg.p-4.bg-color5.m-1
-        .row.justify-content-center
-          .col-8
-            figure.fig-1
-              img(src='@/assets/curso/tema7/img2.svg' style="width: 150px").m-auto
-        .row
-          .col-12
-            h4.text-center.mb-4 Plazo de entrega o #[i Lead Time]
-            p.text-center Se centraliza en el tiempo transcurrido desde que el producto se despacha del almacén hasta llegar al cliente.
-      .col-10.col-md-8.col-lg.p-4.bg-color6.m-1
-        .row.justify-content-center
-          .col-8
-            figure.fig-1
-              img(src='@/assets/curso/tema7/img3.svg' style="width: 150px").m-auto
-        .row
-          .col-12
-            h4.text-center.mb-4 Rotación de inventario
-            p.text-center Relación del consumo directamente con el #[i stock].
-      .col-10.col-md-8.col-lg.p-4.bg-color7.m-1
-        .row.justify-content-center
-          .col-8
-            figure.fig-1
-              img(src='@/assets/curso/tema7/img4.svg' style="width: 150px").m-auto
-        .row
-          .col-12
-            h4.text-center.mb-4 Tasa de reemplazo de empleados
-            p.text-center Se refiere a la diferencia entre admisiones y retiros o despidos.
-      .col-10.col-md-8.col-lg.p-4.bg-color8.m-1
-        .row.justify-content-center
-          .col-8
-            figure.fig-1
-              img(src='@/assets/curso/tema7/img5.svg' style="width: 150px").m-auto
-        .row
-          .col-12
-            h4.text-center.mb-4 Agotamiento de inventario
-            p.text-center Es un indicador que permite verificar cuántas veces en un día un producto se agota.
-    p.mb-5 Pueden existir aún más indicadores del transporte de carga a nivel de logística, sin embargo, es importante resaltar que estos deben no solo medir el rendimiento de los vehículos sino también el de las personas responsables del proceso, ver figura 4.
+    p.text-center.mb-5(data-aos="fade-left") #[b Los indicadores pueden ser:]
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-8.col-lg-6.col-xl.p-4
+        .row.h-100
+          .col-12.bg-color5.m-1.p-4
+            .row.fig-1.justify-content-center.align-items-center
+              .col-8
+                figure
+                  img(src='@/assets/curso/tema7/img2.svg' style="width: 150px").m-auto
+            .row
+              .col-12
+                h4.text-center.mb-4 Plazo de entrega o #[i Lead Time]
+                p.text-center Se centraliza en el tiempo transcurrido desde que el producto se despacha del almacén hasta llegar al cliente.
+      .col-8.col-lg-6.col-xl.p-4
+        .row.h-100
+          .col-12.bg-color6.m-1.p-4
+            .row.fig-1.justify-content-center.align-items-center
+              .col-8
+                figure
+                  img(src='@/assets/curso/tema7/img3.svg' style="width: 130px").m-auto
+            .row
+              .col-12
+                h4.text-center.mb-4 Rotación de inventario
+                p.text-center Relación del consumo directamente con el #[i stock].
+      .col-8.col-lg-6.col-xl.p-4
+        .row.h-100
+          .col-12.bg-color7.m-1.p-4
+            .row.fig-1.justify-content-center.align-items-center
+              .col-8
+                figure
+                  img(src='@/assets/curso/tema7/img4.svg' style="width: 130px").m-auto
+            .row
+              .col-12
+                h4.text-center.mb-4 Tasa de reemplazo de empleados
+                p.text-center Se refiere a la diferencia entre admisiones y retiros o despidos.
+      .col-8.col-lg-6.col-xl.p-4
+        .row.h-100
+          .col-12.bg-color8.m-1.p-4
+            .row.fig-1.justify-content-center.align-items-center
+              .col-8
+                figure
+                  img(src='@/assets/curso/tema7/img5.svg' style="width: 130px").m-auto
+            .row
+              .col-12
+                h4.text-center.mb-4 Agotamiento de inventario
+                p.text-center Es un indicador que permite verificar cuántas veces en un día un producto se agota.
+    p.mb-5(data-aos="fade-right") Pueden existir aún más indicadores del transporte de carga a nivel de logística, sin embargo, es importante resaltar que estos deben no solo medir el rendimiento de los vehículos sino también el de las personas responsables del proceso, ver figura 4.
     .row.mb-5
-      .col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Figura 4]. #[i KPI´s]
         figure
           img(src='@/assets/curso/tema7/img2.png' style="width: 350px").m-auto
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         p.mb-4 Los cuatro KPIs importantes, que permiten determinar el desarrollo del plan de transporte son:
         LineaTiempoD.color-primario
           p(numero="1" titulo="Cantidad de carga que se va a transportar") Se determinan los datos cuantitativos y cualitativos que van a influir en el valor del servicio prestado. Se tiene en cuenta medidas físicas, cantidad del transporte, número de pedidos anuales, semanales y mensuales.
@@ -71,28 +79,30 @@
           p(numero="3" titulo="Seguridad en los recursos") Es un aspecto muy importante a tener en cuenta ya que cuando se cumplen los debidos protocolos de seguridad se genera una optimización en los costos y frecuencia de mantenimiento de los vehículos.<br>También, teniendo en cuenta que en este proceso se involucran personas, es conveniente capacitar a este tipo personal para garantizar una mayor eficiencia y eficacia.
           p(numero="4" titulo="Gastos") Se debe cuantificar los KPIs ya que influyen directamente en solidez económica y rentabilidad de la organización.
     .row.mb-5
-      .col-lg.mb-4.mb-lg-0
+      .col-xl.mb-4.mb-xl-0(data-aos="fade-right")
         .row.align-items-center.mb-4
           .col-auto.pe-0
             figure
               img(src='@/assets/curso/tema3/img1.svg')
           .col
             p.mb-0 #[b ¿Qué es un Informe de gestión? ]
-        p Es un documento que contiene actividades de coordinación, gestión, administración y dirección que se han realizado en un periodo de tiempo en una empresa.
-        p El informe de gestión está pensado como parte de la ideología corporativa de transparencia y rendición de cuentas por tanto es muy útil para comprender aspectos específicos de una empresa u organización comercial, como las finanzas, capacidad estructural, nuevas oportunidades de negocio, etc.
-      .col-lg-auto
+        .row
+          .col-12.p-3.bg-color16
+            p Es un documento que contiene actividades de coordinación, gestión, administración y dirección que se han realizado en un periodo de tiempo en una empresa.
+            p.mb-0 El informe de gestión está pensado como parte de la ideología corporativa de transparencia y rendición de cuentas por tanto es muy útil para comprender aspectos específicos de una empresa u organización comercial, como las finanzas, capacidad estructural, nuevas oportunidades de negocio, etc.
+      .col-xl-auto(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema7/img3.png')
+          img(src='@/assets/curso/tema7/img3.png' style="width: 550px").m-auto
     .row.align-items-center.mb-4
       .col-auto.pe-0
         figure
           img(src='@/assets/curso/tema3/img1.svg')
       .col
         p.mb-0 #[b Aspectos a tener en cuenta al preparar un informe de gestión]
-    p Antes de elaborar un informe de gestión en una empresa se debe asegurar que la información sea suficientemente completa y detallada puesto que de esta forma se puede tomar decisiones acertadas en la organización.  
+    p(data-aos="fade-down") Antes de elaborar un informe de gestión en una empresa se debe asegurar que la información sea suficientemente completa y detallada puesto que de esta forma se puede tomar decisiones acertadas en la organización.  
     p.mb-5 Entre los aspectos a tener en cuenta se destacan los siguientes:
     .row
-      .col-lg.mb-4.mb-lg-0
+      .col-lg.mb-4.mb-lg-0(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Misión, visión y valores")
             .row.justify-content-center.align-items-center
@@ -143,7 +153,7 @@
                   img(src='@/assets/curso/tema7/img12.svg' style="width: 90px").m-auto
               .col-lg
                 p.mb-0 Cuando se realiza un informe en PDF es difícil realizar ajustes, por lo que los convierte en obsoletos; para ello se recomienda usar un software basado en la nube, de esta manera permite realizar cambios y mantener el informe actualizado.
-      .col-lg-auto
+      .col-lg-auto.d-none.d-xl-block(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema7/img4.png' style="width: 350px").m-auto
 

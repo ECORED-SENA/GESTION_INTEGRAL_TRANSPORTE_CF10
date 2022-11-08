@@ -2,22 +2,22 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 8
       h1 Recibo y despacho
-    figure.mb-5
-      img(src='@/assets/curso/tema8/img1.png')
-    p En los procesos de recibo y despacho de mercancías en el desarrollo logístico es importante determinar con certeza los procedimientos y demás actividades que conlleven a una adecuada verificación y validación de los recursos utilizados en la operación.
+    figure.mb-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema8/img12.png')
+    p(data-aos="fade-left") En los procesos de recibo y despacho de mercancías en el desarrollo logístico es importante determinar con certeza los procedimientos y demás actividades que conlleven a una adecuada verificación y validación de los recursos utilizados en la operación.
     Separador
     #t_8_1
     .titulo-segundo.color-acento-contenido
       h2 8.1 Métodos de recibo
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema8/img2.png')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/tema8/img13.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Los conceptos y técnicas que se describen en este capítulo deben estar en conocimiento de todos los que intervienen en la operación de recibo, desde los auxiliares de cargue y descargue hasta el jefe del almacén o centro de distribución pasando por el supervisor del proceso. Esto permitirá controlar el proceso de forma adecuada para hacerlo cada vez más exacto y reducir la cantidad de errores que se puedan presentar, que como en cualquier operación de cualquier empresa, estarán siempre latentes. (García, 2011, pág. 24).
@@ -27,19 +27,19 @@
           img(src='@/assets/curso/tema3/img1.svg')
       .col
         p.mb-0 #[b Recibo físico según el producto o el empaque]
-    p Por la unidad de empaque que contenga el producto que se recibe determina el método de recibo físico como también el equipamiento necesario para el proceso (plataformas, muelles).
-    p.mb-5 A continuación, se muestran las variaciones en los métodos y el empleo de equipos en los tres principales grupos de unidades de manejo: Paletizado (uso de estibas), a granel (líquidos, polvos o granos), y en arrume (cajas, unidades sueltas):
-    .tarjeta.tarjeta--azul.p-3.p-lg-5.mb-5
+    p(data-aos="fade-left") Por la unidad de empaque que contenga el producto que se recibe determina el método de recibo físico como también el equipamiento necesario para el proceso (plataformas, muelles).
+    p.mb-5(data-aos="fade-left") A continuación, se muestran las variaciones en los métodos y el empleo de equipos en los tres principales grupos de unidades de manejo: Paletizado (uso de estibas), a granel (líquidos, polvos o granos), y en arrume (cajas, unidades sueltas):
+    .tarjeta.tarjeta--azul.p-3.p-lg-5.mb-5(data-aos="fade-up")
       SlyderA(tipo="b")
-        .row
+        .row.m-1
           .col-lg
             h4 PALETIZADO
             p Es un conjunto de productos debidamente organizados sobre una estiba y el embalaje del mismo, de esta manera se convierte en una unidad compacta. Las mercancías llegan de esta forma desde el proveedor, facilitando el proceso y reduciendo los tiempos de manipulación.
             p En la siguiente imagen, se visualiza un ejemplo de estiba paletizada y la técnica de crear este paletizado.
           .col-lg-auto
             figure
-              img(src='@/assets/curso/tema8/img3.png')
-        .row
+              img(src='@/assets/curso/tema8/img14.png')
+        .row.m-1
           .col-lg
             h4 Beneficios de la paletización
             ul.lista-ul
@@ -78,8 +78,8 @@
             p En la imagen se puede apreciar un ejemplo de paletización.
           .col-lg-auto
             figure
-              img(src='@/assets/curso/tema8/img4.png')
-        .row
+              img(src='@/assets/curso/tema8/img15.png')
+        .row.m-1
           .col-lg
             h4 A GRANEL
             p Se aplica para los materiales que debido a las grandes cantidades en las que se trasladan y su estructura física, es imposible su embalaje en cajas o bultos. Aunque productos como los granos y el cemento se manejan en bultos, en su etapa de distribución a los clientes finales; los mayoristas mueven tales materiales en camiones cisterna.
@@ -87,7 +87,7 @@
           .col-lg-auto
             figure
               img(src='@/assets/curso/tema8/img5.png')
-        .row
+        .row.m-1
           .col-lg
             h4 Transporte de mercancía a granel sólida
             p Es aquella materia que puede despacharse en la propia fábrica, mina, yacimiento o lugar de origen de la materia y para la que generalmente se usan grúas, silos, tolvas o cintas de transporte en las labores de estiba; como, por ejemplo: trigo, carbón, fertilizantes o resinas, madera, sal, entre otros.
@@ -95,14 +95,14 @@
           .col-lg-auto
             figure
               img(src='@/assets/curso/tema8/img6.png')
-        .row
+        .row.m-1
           .col-lg
             h4 Transporte de mercancía a granel líquida
             p Es aquella materia que puede fluir libremente, y que generalmente es cargada y descargada del barco mediante tuberías y estaciones de bombeo. Se transporta en tanques o depósitos específicamente creados para alojar materias líquidas, como, por ejemplo: productos químicos, alimentos en estado líquido, como el aceite vegetal; petróleo y gas natural. En cuanto a estos dos últimos, son trasladados generalmente vía marítima en buques diseñados especialmente para ello, eso sí, bajo excelentes medidas de seguridad y uso de maquinaria adecuada para su manipulación.
           .col-lg-auto
             figure
               img(src='@/assets/curso/tema8/img7.png')
-        .row
+        .row.m-1
           .col-lg
             h4 EN ARRUME
             p En este método la mercancía no se recibe en estibas, pero tampoco corresponden a los productos que se reciben a granel sino en cajas o bultos siempre sueltos.
@@ -125,8 +125,8 @@
           img(src='@/assets/curso/tema3/img1.svg')
       .col
         p.mb-0 #[b Validación física]
-    p.mb-5 El proceso de recibo es el primer y se puede decir el más importante punto, en el cual una organización tiene el deber de garantizar que las mercancías o productos recibidos cumplan con el estado de calidad, cantidad, empaque y demás especificaciones necesarias para garantizar el éxito de la operación, ver figura 5.
-    .row.mb-5
+    p.mb-5(data-aos="fade-right") El proceso de recibo es el primer y se puede decir el más importante punto, en el cual una organización tiene el deber de garantizar que las mercancías o productos recibidos cumplan con el estado de calidad, cantidad, empaque y demás especificaciones necesarias para garantizar el éxito de la operación, ver figura 5.
+    .row.mb-5(data-aos="fade-left")
       .col-lg-6.mb-4.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Figura 5]. #[i Validación física]
@@ -141,8 +141,8 @@
           img(src='@/assets/curso/tema3/img1.svg')
       .col
         p.mb-0 #[b Validación documental]
-    p.mb-5 La validación de los documentos de un embarque (ver figura 6) es igual de fundamental que el control físico de las cantidades y referencias recibidas, puesto que de esto depende mantener la legalidad de la comercialización de las mercancías, tener su correcto registro contable y un buen control sobre los inventarios. Se pueden presentar situaciones como:
-    .row.justify-content-center.mb-5
+    p.mb-5(data-aos="fade-down") La validación de los documentos de un embarque (ver figura 6) es igual de fundamental que el control físico de las cantidades y referencias recibidas, puesto que de esto depende mantener la legalidad de la comercialización de las mercancías, tener su correcto registro contable y un buen control sobre los inventarios. Se pueden presentar situaciones como:
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-md-8.col-lg-6.p-4.p-lg-5.bg-color9
         .row.justify-content-center
           .col-4
@@ -155,7 +155,7 @@
             figure.mb-5
               img(src='@/assets/curso/tema8/img3.svg').m-auto
         p Documentación no acorde a la mercancía recibida, es decir, una factura que registre un producto o cantidad diferente a la establecida en la orden de compra.
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-left")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Figura 6]. #[i Formato de recepción de bienes y mercancías]
@@ -166,8 +166,8 @@
     #t_8_2
     .titulo-segundo.color-acento-contenido
       h2 8.2 Despacho de mercancías
-    p.mb-5 El proceso de despachos tiene como finalidad garantizar la adecuada entrega del producto terminado a los clientes de manera en que fue pactada la negociación, manteniendo de esta forma un excelente nivel de confianza empresarial por parte de los clientes y el mercado.
-    .row.align-items-center.justify-content-center.bg-color12.mb-5
+    p.mb-5(data-aos="fade-right") El proceso de despachos tiene como finalidad garantizar la adecuada entrega del producto terminado a los clientes de manera en que fue pactada la negociación, manteniendo de esta forma un excelente nivel de confianza empresarial por parte de los clientes y el mercado.
+    .row.align-items-center.justify-content-center.bg-color12.mb-5(data-aos="fade-left")
       .col-lg-2.mb-4.mb-lg-0
         p.mb-0.text-center #[b Estas condiciones son:]
       .col-lg-9
@@ -189,7 +189,7 @@
               img(src='@/assets/curso/tema8/img9.svg' style="width: 150px").m-auto
             p.text-center.mb-0 Documentación según las condiciones pactadas.
     .row.mb-5
-      .col-lg.mb-4.mb-lg-0
+      .col-xl.mb-4.mb-xl-0(data-aos="fade-right")
         p En un despacho de mercancías habrá un margen de riesgo o error, sin embargo, es responsabilidad del personal del centro de distribución que los mantengan al mínimo posible. 
         p Los errores que más se presentan son:
         ul.lista-ul
@@ -205,70 +205,46 @@
             i.fas.fa-angle-right(style="color: #FF6D4B")
             |
             p.mb-0 Salida del artículo fuera del tiempo establecido, entrega del pedido al cliente fuera de los tiempos pactados.
-      .col-lg-auto
+      .col-xl-auto(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema8/img10.png')
+          img(src='@/assets/curso/tema8/img10.png' style="width: 550px").m-auto
     .row.align-items-center.mb-4
       .col-auto.pe-0
         figure
           img(src='@/assets/curso/tema3/img1.svg')
       .col
         p.mb-0 #[b Objetivos del despacho de mercancías]
-    .row.justify-content-center.mb-5
-      .col-md-7.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema8/img1.jpg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              .row
-                .col-12
-                  .row
-                    .col-auto.mb-4
-                      figure
-                        img(src='@/assets/curso/tema8/img10.svg')
-                    p Garantizar que la mercancía despachada cumpla con todos los requisitos exigidos por el cliente. 
-      .col-md-7.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema8/img2.jpg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              .row
-                .col-12
-                  .row
-                    .col-auto.mb-4
-                      figure
-                        img(src='@/assets/curso/tema8/img10.svg')
-                    p Identificar oportunamente las inconformidades que vayan en contra del correcto y adecuado servicio de la empresa.
-      .col-md-7.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema8/img3.jpg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              .row
-                .col-12
-                  .row
-                    .col-auto.mb-4
-                      figure
-                        img(src='@/assets/curso/tema8/img10.svg')
-                    p Servir de filtro para mantener la consistencia de los inventarios manejados en el centro de distribución.
-      .col-md-7.col-lg-3
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema8/img4.jpg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              .row
-                .col-12
-                  .row
-                    .col-auto.mb-4
-                      figure
-                        img(src='@/assets/curso/tema8/img10.svg')
-                    p Permitir la salida a las mercancías de manera ágil, evitando así acaparamiento de productos en zonas no habilitadas para ello (pasillos).
+    .row.justify-content-center.mb-5(data-aos="fade-up")
+      .col-md-7.col-lg-6.col-xl.mb-4.mb-xl-0
+        .row.m-1
+          .col-12.p-0
+            figure
+              img(src='@/assets/curso/tema8/img1.png')
+          .col-12.p-4.bg-color17
+            p Garantizar que la mercancía despachada cumpla con todos los requisitos exigidos por el cliente. 
+      .col-md-7.col-lg-6.col-xl.mb-4.mb-xl-0
+        .row.m-1
+          .col-12.p-0
+            figure
+              img(src='@/assets/curso/tema8/img2.png')
+          .col-12.p-4.bg-color17
+            p Identificar oportunamente las inconformidades que vayan en contra del correcto y adecuado servicio de la empresa.
+      .col-md-7.col-lg-6.col-xl.mb-4.mb-xl-0
+        .row.m-1
+          .col-12.p-0
+            figure
+              img(src='@/assets/curso/tema8/img3.png')
+          .col-12.p-4.bg-color17
+            p Servir de filtro para mantener la consistencia de los inventarios manejados en el centro de distribución.
+      .col-md-7.col-lg-6.col-xl
+        .row.m-1
+          .col-12.p-0
+            figure
+              img(src='@/assets/curso/tema8/img4.png')
+          .col-12.p-4.bg-color17
+            p Permitir la salida a las mercancías de manera ágil, evitando así acaparamiento de productos en zonas no habilitadas para ello (pasillos).
     .row.mb-5
-      .col-lg-6.mb-4.mb-lg-0
+      .col-xl-6.mb-4.mb-xl-0(data-aos="fade-right")
         .row.align-items-center.mb-4
           .col-auto.pe-0
             figure
@@ -285,22 +261,22 @@
             i.fas.fa-angle-right(style="color: #FF6D4B")
             |
             p.mb-0 Sistema de facturación, es donde se expide la factura de venta después de haber efectuado el embalaje y la validación del despacho, siendo el último procedimiento antes de ubicar la mercancía en el área de despacho y embarque de los vehículos que la transportarán.
-      .col-lg-6
+      .col-xl-6(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema8/img11.png')
-    .row.justify-content-center.mb-4
+          img(src='@/assets/curso/tema8/img11.png' style="width: 550px").m-auto
+    .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Figura 7]. #[i Pasos para el despacho de mercancía]
         figure
           img(src='@/assets/curso/tema8/img11.svg')
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-right")
       .col-lg-6
         a.anexo.mb-4.mb-lg-0(href="http://recibosydespachosdemercanciasaura.blogspot.com/2012/11/gestion-y-logistica-sena-eficacia-53.html" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p #[b Enlace web.] Información complementaria en el enlace
+            p #[b Enlace web.] Gestión y logistica - SENA eficacia 53
 
 </template>
 

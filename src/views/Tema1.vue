@@ -2,82 +2,39 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Simulación de operaciones
-    p.mb-5 La simulación de operaciones representa la operación de un proceso o componente real, la cual se puede llevar a cabo de forma sistemática basándose en un paso a paso o a través de un sistema de computación y tiene como finalidad deducir características de funcionalidad con la observación del proceder del sistema durante un tiempo definido, así como se observa en la figura 1.
-    .titulo-sexto.color-acento-contenido.mb-5
+    p.mb-5(data-aos="fade-down") La simulación de operaciones representa la operación de un proceso o componente real, la cual se puede llevar a cabo de forma sistemática basándose en un paso a paso o a través de un sistema de computación y tiene como finalidad deducir características de funcionalidad con la observación del proceder del sistema durante un tiempo definido, así como se observa en la figura 1.
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       p.mb-0 #[b Figura 1]. Simulación Logística
-    .row.bg-color1.mb-2
+    .row.bg-color1.mb-2(data-aos="fade-left")
       .col-12.p-5
         .row.justify-content-center
-            ImagenInfografica.color-acento-contenido
-              template(v-slot:imagen)
-                figure
-                  img(src='@/assets/curso/tema1/img1.svg')
-              .tarjeta.color-acento-botones.p-3(x="29.5%" y="24%" numero="")
-                ul.lista-ul
-                  li 
-                    i.fas.fa-angle-right(style="color: #FF6D4B")
-                    | Transportista
-                  li 
-                    i.fas.fa-angle-right(style="color: #FF6D4B")
-                    | Agencia aduanera
-                  li 
-                    i.fas.fa-angle-right(style="color: #FF6D4B")
-                    | EPSA
-                  li 
-                    i.fas.fa-angle-right(style="color: #FF6D4B")
-                    | Terminal
-                  li
-                    i.fas.fa-angle-right(style="color: #FF6D4B")
-                    | Extraportuario
-              .tarjeta.color-acento-botones.p-3(x="51.5%" y="39.5%" numero="")
-                ul.lista-ul
-                  li 
-                    i.fas.fa-angle-right(style="color: #FF6D4B")
-                    | Agencia aduanera
-                  li 
-                    i.fas.fa-angle-right(style="color: #FF6D4B")
-                    | Terminal
-                  li 
-                    i.fas.fa-angle-right(style="color: #FF6D4B")
-                    | SAG
-                  li 
-                    i.fas.fa-angle-right(style="color: #FF6D4B")
-                    | SNA
-              .tarjeta.color-acento-botones.p-3(x="70%" y="20%" numero="")
-                ul.lista-ul
-                  li 
-                    i.fas.fa-angle-right(style="color: #FF6D4B")
-                    | EPSA
-                  li 
-                    i.fas.fa-angle-right(style="color: #FF6D4B")
-                    | Agencia naviera
-                  li 
-                    i.fas.fa-angle-right(style="color: #FF6D4B")
-                    | Terminal
-                  li 
-                    i.fas.fa-angle-right(style="color: #FF6D4B")
-                    | SNA
-    .row.justify-content-center.mb-5
-      .col-lg-12.bg-color2.p-2
+          .col-10.d-none.d-md-block
+            figure
+              img(src='@/assets/curso/tema1/img9.png' style="width: 850px").m-auto
+          .col-10.d-block.d-md-none
+            figure
+              img(src='@/assets/curso/tema1/img9b.png' style="width: 850px").m-auto
+    .row.mb-5
+      .col-12.bg-color2.p-2
         p.mb-0 Nota. Fundación valenciaport (2021).
-    .row
-      .col-lg
+    .row(data-aos="fade-right")
+      .col-xl.mb-4.mb-lg-0
         p El desarrollo tecnológico permite a las empresas, probar y/o crear equipos, productos y procesos en un ambiente virtual antes de ser pasados a un mundo real. Así, se pueden detectar a tiempo situaciones de riesgo, realizar pruebas y configurar diferentes escenarios. En conclusión, la simulación es un proceso que genera una base para la experimentación, creando flexibilidad y una mejor productividad de los negocios.
         p La simulación permite una sincronización en los procesos logísticos, además ocupa un papel importante en el diseño, ejecución y control de estos.
-      .col-lg-auto
+      .col-xl-auto
         figure
-          img(src='@/assets/curso/tema1/img3.png')
+          img(src='@/assets/curso/tema1/img3.png' style="width: 550px").m-auto
     Separador
     #t_1_1
     .titulo-segundo.color-acento-contenido
       h2 1.1 Utilidades de la simulación
     p.mb-5 A continuación, se mencionan algunas utilidades al implementar simulaciones como:
     .row
-      .col-lg
+      .col-lg(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Mejora constante de los procesos")
             .row.justify-content-center.align-items-center
@@ -121,7 +78,7 @@
                   img(src='@/assets/curso/tema1/img7.svg' style="width: 90px").m-auto
               .col-lg
                 p.mb-0 Los procesos operan articulados, por tal razón la comunicación es en tiempo real y así la toma de decisiones siempre es más confiable.
-      .col-lg-auto
+      .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img4.png' style="width: 350px").m-auto
     Separador
@@ -129,7 +86,7 @@
     .titulo-segundo.color-acento-contenido
       h2 1.2 Procedimiento
     p.mb-5 Para efectuar un modelo de simulaciones se debe:
-    .tarjeta.tarjeta--azul.p-3.p-lg-5
+    .tarjeta.tarjeta--azul.p-3.p-lg-5(data-aos="fade-down")
       SlyderA(tipo="b")
         .row
           .col-lg

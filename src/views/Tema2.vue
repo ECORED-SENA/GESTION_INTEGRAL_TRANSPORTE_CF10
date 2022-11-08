@@ -2,14 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Trazabilidad
-    figure.mb-5
+    figure.mb-5(data-aos="fade-right")
       img(src='@/assets/curso/tema2/img1.png')
-    p.mb-5 La trazabilidad en el campo de la logística de mercancías es la forma de identificar el origen y los ciclos por los cuales atraviesa un producto durante todo el desarrollo productivo y su proceso de distribución logística hasta llegar al consumidor final.
-    .row.justify-content-center
+    p.mb-5(data-aos="fade-left") La trazabilidad en el campo de la logística de mercancías es la forma de identificar el origen y los ciclos por los cuales atraviesa un producto durante todo el desarrollo productivo y su proceso de distribución logística hasta llegar al consumidor final.
+    .row.justify-content-center(data-aos="fade-down")
       .col-lg-10
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
@@ -18,8 +18,8 @@
             .col-lg-8
               .bloque-texto-a__texto.p-4
                 p.mb-0 Al realizar una adecuada trazabilidad las empresas pueden generar mayor valor a la operación y obtienen información que les permiten tomar decisiones acertadas, corrigiendo las fallas que se presentan en el desarrollo de esta.
-    p.mb-5 A través de los resultados obtenidos de la trazabilidad se puede alcanzar los siguientes beneficios:
-    SlyderF(columnas="col-9 col-lg-6 col-xl-4")
+    p.mb-5(data-aos="fade-up") A través de los resultados obtenidos de la trazabilidad se puede alcanzar los siguientes beneficios:
+    SlyderF(columnas="col-9 col-lg-6 col-xl-4")(data-aos="fade-right")
       .tarjeta.color-acento-contenido.p-4
         .row.justify-content-center.mb-3
           .col-6.mb-4

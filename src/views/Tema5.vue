@@ -2,24 +2,24 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
       h1 Auditoría Interna
-    figure.mb-5
+    figure.mb-5(data-aos="fade-right")
       img(src='@/assets/curso/tema5/img1.png')
-    p.mb-5 La auditoría interna es una actividad independiente y objetiva de aseguramiento, creada para dar valor y mejorar las operaciones de una organización ayudándola a conseguir los objetivos, de forma sistemática y disciplinada con el propósito de poder evaluar y mejorar el desempeño de los procesos de gestión de riesgos, control y administración, ver figura 2.
-    .titulo-sexto.color-acento-contenido.mb-5
+    p.mb-5(data-aos="fade-left") La auditoría interna es una actividad independiente y objetiva de aseguramiento, creada para dar valor y mejorar las operaciones de una organización ayudándola a conseguir los objetivos, de forma sistemática y disciplinada con el propósito de poder evaluar y mejorar el desempeño de los procesos de gestión de riesgos, control y administración, ver figura 2.
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       p.mb-0 #[b Figura 2]. Auditoría interna
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-6.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema5/img1.svg')
       .col-lg-6.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema5/img2.svg')
-    p.mb-5 Es importante, a la hora de comprender el proceso de auditoría interna, tener claro los siguiente postulados:
-    TabsC.color-acento-contenido
+    p.mb-5(data-aos="fade-down") Es importante, a la hora de comprender el proceso de auditoría interna, tener claro los siguiente postulados:
+    TabsC.color-acento-contenido(data-aos="fade-right")
       .py-3.py-md-4(titulo="¿Para qué sirve la auditoría interna?")
         .row
           .col-12
