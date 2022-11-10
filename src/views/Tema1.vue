@@ -13,12 +13,12 @@
       .col-12.p-5
         .row.justify-content-center
           .col-lg-10.d-none.d-md-block
-            ImagenInfografica.color-acento-botones
+            ImagenInfografica.color-secundario
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/tema1/img9.png')
                   figcaption Leyenda de la imagen
-              .tarjeta.color-acento-botones.p-3(x="35%" y="26%" numero="1")
+              .tarjeta.color-acento-botones.p-3(x="34%" y="25.6%" numero="1")
                 ul.lista-ul
                   li 
                     i.fas.fa-angle-right(style="color: #FF6D4B")
@@ -40,7 +40,7 @@
                     i.fas.fa-angle-right(style="color: #FF6D4B")
                     |
                     p.mb-0 Extraportuario
-              .tarjeta.color-acento-botones.p-3(x="31%" y="49.5%" numero="2")
+              .tarjeta.color-acento-botones.p-3(x="32%" y="49%" numero="2")
                 ul.lista-ul
                   li 
                     i.fas.fa-angle-right(style="color: #FF6D4B")
@@ -58,7 +58,7 @@
                     i.fas.fa-angle-right(style="color: #FF6D4B")
                     |
                     p.mb-0 SNA
-              .tarjeta.color-acento-botones.p-3(x="67%" y="60.7%" numero="3")
+              .tarjeta.color-acento-botones.p-3(x="67%" y="60%" numero="3")
                 ul.lista-ul
                   li 
                     i.fas.fa-angle-right(style="color: #FF6D4B")
@@ -77,7 +77,7 @@
                     |
                     p.mb-0 SNA
           .col-lg-10.d-block.d-md-none
-            ImagenInfografica.color-acento-botones
+            ImagenInfografica.color-secundario
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/tema1/img9b.png')
