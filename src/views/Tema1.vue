@@ -12,17 +12,139 @@
     .row.bg-color1.mb-2(data-aos="fade-left")
       .col-12.p-5
         .row.justify-content-center
-          .col-10.d-none.d-md-block
-            figure
-              img(src='@/assets/curso/tema1/img9.png' style="width: 850px").m-auto
-          .col-10.d-block.d-md-none
-            figure
-              img(src='@/assets/curso/tema1/img9b.png' style="width: 850px").m-auto
+          .col-lg-10.d-none.d-md-block
+            ImagenInfografica.color-acento-botones
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema1/img9.png')
+                  figcaption Leyenda de la imagen
+              .tarjeta.color-acento-botones.p-3(x="35%" y="26%" numero="1")
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 Transportista
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 Agencia aduanera
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 EPSA
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 Terminal
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 Extraportuario
+              .tarjeta.color-acento-botones.p-3(x="31%" y="49.5%" numero="2")
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 Agencia aduanera
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 Terminal
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 SAG
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 SNA
+              .tarjeta.color-acento-botones.p-3(x="67%" y="60.7%" numero="3")
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 EPSA
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 Agencia naviera
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 Terminal
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 SNA
+          .col-lg-10.d-block.d-md-none
+            ImagenInfografica.color-acento-botones
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema1/img9b.png')
+                  figcaption Leyenda de la imagen
+              .tarjeta.color-acento-botones.p-3(x="50%" y="28%" numero="1")
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 Transportista
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 Agencia aduanera
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 EPSA
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 Terminal
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 Extraportuario
+              .tarjeta.color-acento-botones.p-3(x="22%" y="37%" numero="2")
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 Agencia aduanera
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 Terminal
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 SAG
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 SNA
+              .tarjeta.color-acento-botones.p-3(x="34%" y="66%" numero="3")
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 EPSA
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 Agencia naviera
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 Terminal
+                  li 
+                    i.fas.fa-angle-right(style="color: #FF6D4B")
+                    |
+                    p.mb-0 SNA
     .row.mb-5
       .col-12.bg-color2.p-2
         p.mb-0 Nota. Fundación valenciaport (2021).
     .row(data-aos="fade-right")
-      .col-xl.mb-4.mb-lg-0
+      .col-xl.mb-4.mb-xl-0
         p El desarrollo tecnológico permite a las empresas, probar y/o crear equipos, productos y procesos en un ambiente virtual antes de ser pasados a un mundo real. Así, se pueden detectar a tiempo situaciones de riesgo, realizar pruebas y configurar diferentes escenarios. En conclusión, la simulación es un proceso que genera una base para la experimentación, creando flexibilidad y una mejor productividad de los negocios.
         p La simulación permite una sincronización en los procesos logísticos, además ocupa un papel importante en el diseño, ejecución y control de estos.
       .col-xl-auto
