@@ -8,18 +8,18 @@
       h1 Análisis y resultados en la operación del servicio
     .row.bg-color4.mb-2(data-aos="fade-right")
       .col-12.px-5
-        p Al evaluar el cumplimiento de los objetivos fijados en el plan de transporte se debe hacer un análisis de los resultados obtenidos a través del tiempo en el desarrollo de la operación ya que la realidad va cambiando y se hace necesario estar verificando las condiciones del momento. 
+        p Al evaluar el cumplimiento de los objetivos fijados en el plan de transporte se debe hacer un análisis de los resultados obtenidos a través del tiempo en el desarrollo de la operación, ya que la realidad va cambiando y se hace necesario estar verificando las condiciones del momento. 
         p.mb-5 Para cumplir con la evaluación de los procedimientos de operación debemos analizar los indicadores de gestión que nos evalúan y miden procesos, así como su desempeño.
         .row.justify-content-center
           .col-lg-10
             figure.mb-5
               img(src='@/assets/curso/tema7/img1.png')
             p No tomar en cuenta los indicadores indica que se está haciendo un análisis responsable del desarrollo de los objetivos para poder alcanzar los resultados esperados corriendo el riesgo de fracasar.
-            p Al tener en cuenta los KPIs se puede tener confianza en que se puede monitorear y verificar los procesos en el plan de transportes de forma acertada y correcta ya que nos permiten hacer una revisión adecuada y tomar decisiones en el momento justo.
+            p Al tener en cuenta los KPI se puede tener confianza en que se puede monitorear y verificar los procesos en el plan de transportes de forma acertada y correcta ya que nos permiten hacer una revisión adecuada y tomar decisiones en el momento justo.
             p Los indicadores pueden medirse de forma gráfica para acelerar las decisiones y la evaluación de los recursos y procedimientos.
-            p Los KPIs en el transporte de carga deben ser mensurables, cuantificables, específicos, temporales y relevantes.
-    p.text-center.mb-5(data-aos="fade-left") #[b Los indicadores pueden ser:]
-    .row.justify-content-center.mb-5(data-aos="fade-down")
+            p Los KPI en el transporte de carga deben ser mensurables, cuantificables, específicos, temporales y relevantes.
+    p.text-center.mb-4(data-aos="fade-left") #[b Los indicadores pueden ser:]
+    .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-8.col-lg-6.col-xl.p-4
         .row.h-100
           .col-12.bg-color5.m-1.p-4
@@ -68,16 +68,16 @@
     .row.mb-5
       .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Figura 4]. #[i KPI´s]
+          p.mb-0 #[b Figura 4]. #[i KPI]
         figure
           img(src='@/assets/curso/tema7/img2.png' style="width: 350px").m-auto
       .col-lg-6(data-aos="fade-left")
-        p.mb-4 Los cuatro KPIs importantes, que permiten determinar el desarrollo del plan de transporte son:
+        p.mb-4 Los cuatro KPI importantes, que permiten determinar el desarrollo del plan de transporte son:
         LineaTiempoD.color-primario
           p(numero="1" titulo="Cantidad de carga que se va a transportar") Se determinan los datos cuantitativos y cualitativos que van a influir en el valor del servicio prestado. Se tiene en cuenta medidas físicas, cantidad del transporte, número de pedidos anuales, semanales y mensuales.
-          p(numero="2" titulo="Administración del tiempo y distancia") El tiempo además de ser un recurso invaluable es un indicador muy importante. Aquí se mide la eficiencia de   la entrega de la mercancía, rendimiento del vehículo. De igual manera la distancia es un factor importante pues de esta depende gastos adicionales de la operación.
-          p(numero="3" titulo="Seguridad en los recursos") Es un aspecto muy importante a tener en cuenta ya que cuando se cumplen los debidos protocolos de seguridad se genera una optimización en los costos y frecuencia de mantenimiento de los vehículos.<br>También, teniendo en cuenta que en este proceso se involucran personas, es conveniente capacitar a este tipo personal para garantizar una mayor eficiencia y eficacia.
-          p(numero="4" titulo="Gastos") Se debe cuantificar los KPIs ya que influyen directamente en solidez económica y rentabilidad de la organización.
+          p(numero="2" titulo="Administración del tiempo y distancia") El tiempo, además de ser un recurso invaluable, es un indicador muy importante. Aquí se mide la eficiencia de   la entrega de la mercancía, rendimiento del vehículo. De igual manera, la distancia es un factor importante, pues de esta depende gastos adicionales de la operación.
+          p(numero="3" titulo="Seguridad en los recursos") Es un aspecto muy importante a tener en cuenta, ya que cuando se cumplen los debidos protocolos de seguridad se genera una optimización en los costos y frecuencia de mantenimiento de los vehículos.<br>También, teniendo en cuenta que en este proceso se involucran personas, es conveniente capacitar a este tipo personal para garantizar una mayor eficiencia y eficacia.
+          p(numero="4" titulo="Gastos") Se debe cuantificar los KPI ya que influyen directamente en solidez económica y rentabilidad de la organización.
     .row.mb-5
       .col-xl.mb-4.mb-xl-0(data-aos="fade-right")
         .row.align-items-center.mb-4
@@ -89,7 +89,7 @@
         .row
           .col-12.p-3.bg-color16
             p Es un documento que contiene actividades de coordinación, gestión, administración y dirección que se han realizado en un periodo de tiempo en una empresa.
-            p.mb-0 El informe de gestión está pensado como parte de la ideología corporativa de transparencia y rendición de cuentas por tanto es muy útil para comprender aspectos específicos de una empresa u organización comercial, como las finanzas, capacidad estructural, nuevas oportunidades de negocio, etc.
+            p.mb-0 El informe de gestión está pensado como parte de la ideología corporativa de transparencia y rendición de cuentas, por tanto es muy útil para comprender aspectos específicos de una empresa u organización comercial, como las finanzas, capacidad estructural, nuevas oportunidades de negocio, etc.
       .col-xl-auto(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema7/img3.png' style="width: 550px").m-auto
@@ -99,7 +99,7 @@
           img(src='@/assets/curso/tema3/img1.svg')
       .col
         p.mb-0 #[b Aspectos a tener en cuenta al preparar un informe de gestión]
-    p(data-aos="fade-down") Antes de elaborar un informe de gestión en una empresa se debe asegurar que la información sea suficientemente completa y detallada puesto que de esta forma se puede tomar decisiones acertadas en la organización.  
+    p(data-aos="fade-down") Antes de elaborar un informe de gestión en una empresa se debe asegurar que la información sea suficientemente completa y detallada, puesto que de esta forma se puede tomar decisiones acertadas en la organización.  
     p.mb-5 Entre los aspectos a tener en cuenta se destacan los siguientes:
     .row
       .col-lg.mb-4.mb-lg-0(data-aos="fade-right")
@@ -110,7 +110,7 @@
                 figure
                   img(src='@/assets/curso/tema7/img6.svg' style="width: 90px").m-auto
               .col-lg
-                p.mb-0 Definen la organización y muestran la estrategia a un alto nivel. Es indispensable que todos los empleados de la empresa conozcan la misión, visión y valores ya que, sin estos, es imposible que exista y que se genere una alineación de la estrategia.
+                p.mb-0 Definen la organización y muestran la estrategia a un alto nivel. Es indispensable que todos los empleados de la empresa conozcan la misión, visión y valores, ya que, sin estos, es imposible que exista y que se genere una alineación de la estrategia.
           .row(titulo="Índice de contenido")
             .row.justify-content-center.align-items-center
               .col-4.col-lg-auto.mb-4.mb-lg-0
@@ -152,7 +152,7 @@
                 figure
                   img(src='@/assets/curso/tema7/img12.svg' style="width: 90px").m-auto
               .col-lg
-                p.mb-0 Cuando se realiza un informe en PDF es difícil realizar ajustes, por lo que los convierte en obsoletos; para ello se recomienda usar un software basado en la nube, de esta manera permite realizar cambios y mantener el informe actualizado.
+                p.mb-0 Cuando se realiza un informe en PDF es difícil realizar ajustes, por lo que los convierte en obsoletos; para ello se recomienda usar un #[i software] basado en la nube, de esta manera permite realizar cambios y mantener el informe actualizado.
       .col-lg-auto.d-none.d-xl-block(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema7/img4.png' style="width: 350px").m-auto

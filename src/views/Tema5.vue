@@ -18,21 +18,21 @@
       .col-lg-6.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema5/img2.svg')
-    p.mb-5(data-aos="fade-down") Es importante, a la hora de comprender el proceso de auditoría interna, tener claro los siguiente postulados:
+    p.mb-5(data-aos="fade-down") Es importante, a la hora de comprender el proceso de auditoría interna, tener claro los siguientes postulados:
     TabsC.color-acento-contenido(data-aos="fade-right")
       .py-3.py-md-4(titulo="¿Para qué sirve la auditoría interna?")
         .row
           .col-12
             p Es una actividad que tiene como objetivo realizar un seguimiento de un negocio, de igual forma controla los movimientos financieros.
-            p Cuando se realiza una auditoría interna, las probabilidades de cumplir sus objetivos son más elevadas ya que la auditoría permite detectar cualquier tipo de fraudes o desvío ya sea de bienes materiales o dineros. 
+            p Cuando se realiza una auditoría interna, las probabilidades de cumplir sus objetivos son más elevadas, ya que la auditoría permite detectar cualquier tipo de fraudes o desvío, ya sea de bienes materiales o dineros. 
             p La auditoría interna es exacta para hallar diferentes anomalías en una empresa u organización y así poder ser subsanadas con prontitud y eficacia.
-            p.mb-4 La auditoría debe ser realizada por personas competentes en la materia. Su trabajo debe ser imparcial y objetiva. De igual forma la organización debe brindar al auditor toda la información y material necesarios para realizar los estudios pertinentes y así, poder detectar lo que realmente sucede en la empresa a nivel contable y financiero.
+            p.mb-4 La auditoría debe ser realizada por personas competentes en la materia. Su trabajo debe ser imparcial y objetiva. De igual forma, la organización debe brindar al auditor toda la información y material necesarios para realizar los estudios pertinentes y así, poder detectar lo que realmente sucede en la empresa a nivel contable y financiero.
             figure
               img(src='@/assets/curso/tema5/img2.png')
-      .py-3.py-md-4(titulo="¿Para qué sirve la auditoría interna?")
+      .py-3.py-md-4(titulo="Objetivos de la auditoría interna")
         .row
           .col-lg-8.mb-4.mb-lg-0
-            p A medida que una empresa u organización va creciendo se va haciendo necesaria la auditoría interna ya que la revisión, control y monitoreo de las operaciones se tiende a volver más complejas por lo que el análisis y estudio de la operación de la empresa puede hacerse de manera menos objetiva y alejada de la realidad.
+            p A medida que una empresa u organización va creciendo, se va haciendo necesaria la auditoría interna, ya que la revisión, control y monitoreo de las operaciones se tiende a volver más complejas, por lo que el análisis y estudio de la operación de la empresa puede hacerse de manera menos objetiva y alejada de la realidad.
             p Una auditoría interna se realiza sobre un plan redactado y diseñado anticipadamente bajo las políticas de la empresa a evaluar. Además, debe cumplir con:
             ul.lista-ul
               li 

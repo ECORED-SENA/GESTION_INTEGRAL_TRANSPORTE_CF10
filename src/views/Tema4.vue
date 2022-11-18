@@ -20,7 +20,7 @@
                   img(src='@/assets/curso/tema3/img1.svg')
               .col
                 p.mb-0 #[b Importancia del ciclo de Deming o PDCA]
-            p A través de este ciclo una empresa puede identificar las oportunidades de mejora continua y así aprovecharlas a su favor. Permite al área de logística crear nuevas y óptimas soluciones en el tiempo rehaciendo progresivamente prácticas que estén en desuso o que no cumplan con las expectativas. 
+            p A través de este ciclo, una empresa puede identificar las oportunidades de mejora continua y así aprovecharlas a su favor. Permite al área de logística crear nuevas y óptimas soluciones en el tiempo, rehaciendo progresivamente prácticas que estén en desuso o que no cumplan con las expectativas. 
             p.mb-5 El ciclo Deming en logística hace una evaluación de forma continua, logrando identificar fallas o procesos inútiles que retrasan y complican la obtención de los objetivos.
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-10

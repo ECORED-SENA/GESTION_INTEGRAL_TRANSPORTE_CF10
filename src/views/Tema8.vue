@@ -20,14 +20,14 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema8/img13.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Los conceptos y técnicas que se describen en este capítulo deben estar en conocimiento de todos los que intervienen en la operación de recibo, desde los auxiliares de cargue y descargue hasta el jefe del almacén o centro de distribución pasando por el supervisor del proceso. Esto permitirá controlar el proceso de forma adecuada para hacerlo cada vez más exacto y reducir la cantidad de errores que se puedan presentar, que como en cualquier operación de cualquier empresa, estarán siempre latentes. (García, 2011, pág. 24).
+            p.mb-0 Los conceptos y técnicas que se describen en este capítulo deben estar en conocimiento de todos los que intervienen en la operación de recibo, desde los auxiliares de cargue y descargue hasta el jefe del almacén o centro de distribución, pasando por el supervisor del proceso. Esto permitirá controlar el proceso de forma adecuada para hacerlo cada vez más exacto y reducir la cantidad de errores que se puedan presentar, que como en cualquier operación de cualquier empresa, estarán siempre latentes. (García, 2011, pág. 24).
     .row.align-items-center.mb-4
       .col-auto.pe-0
         figure
           img(src='@/assets/curso/tema3/img1.svg')
       .col
         p.mb-0 #[b Recibo físico según el producto o el empaque]
-    p(data-aos="fade-left") Por la unidad de empaque que contenga el producto que se recibe determina el método de recibo físico como también el equipamiento necesario para el proceso (plataformas, muelles).
+    p(data-aos="fade-left") Por la unidad de empaque que contenga el producto que se recibe, determina el método de recibo físico como también el equipamiento necesario para el proceso (plataformas, muelles).
     p.mb-5(data-aos="fade-left") A continuación, se muestran las variaciones en los métodos y el empleo de equipos en los tres principales grupos de unidades de manejo: Paletizado (uso de estibas), a granel (líquidos, polvos o granos), y en arrume (cajas, unidades sueltas):
     .tarjeta.tarjeta--azul.p-3.p-lg-5.mb-5(data-aos="fade-up")
       SlyderA(tipo="b")
@@ -91,7 +91,7 @@
           .col-lg
             h4 Transporte de mercancía a granel sólida
             p Es aquella materia que puede despacharse en la propia fábrica, mina, yacimiento o lugar de origen de la materia y para la que generalmente se usan grúas, silos, tolvas o cintas de transporte en las labores de estiba; como, por ejemplo: trigo, carbón, fertilizantes o resinas, madera, sal, entre otros.
-            p Para el transporte marítimo de estas mercancías, se usan graneleros conocidos como bulk carriers, que son buques o barcos mercantes de gran tamaño, especialmente diseñados para el transporte de este tipo de mercancía.
+            p Para el transporte marítimo de estas mercancías, se usan graneleros conocidos como #[i bulk carriers], que son buques o barcos mercantes de gran tamaño, especialmente diseñados para el transporte de este tipo de mercancía.
           .col-lg-auto
             figure
               img(src='@/assets/curso/tema8/img6.png')
@@ -105,7 +105,7 @@
         .row.m-1
           .col-lg
             h4 EN ARRUME
-            p En este método la mercancía no se recibe en estibas, pero tampoco corresponden a los productos que se reciben a granel sino en cajas o bultos siempre sueltos.
+            p En este método la mercancía no se recibe en estibas, pero tampoco corresponden a los productos que se reciben a granel, sino en cajas o bultos siempre sueltos.
             p Las mercancías recibidas son llevadas a las zonas de revisión y seguidamente a almacenamiento de dos formas:
             ul.lista-ul
               li 
@@ -115,7 +115,7 @@
               li 
                 i.fas.fa-angle-right(style="color: #FF6D4B")
                 |
-                p.mb-0 En estibas, para ello el personal competente arrume las cajas o bultos recibidos sobre una estiba facilitando su manejo y traslado interno.
+                p.mb-0 En estibas, para ello, el personal competente arruma las cajas o bultos recibidos sobre una estiba, facilitando su manejo y traslado interno.
           .col-lg-auto
             figure
               img(src='@/assets/curso/tema8/img8.png')
@@ -276,7 +276,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p #[b Enlace web.] Gestión y logistica - SENA eficacia 53
+            p #[b Enlace web.] Gestión y logística - SENA eficacia 53
 
 </template>
 

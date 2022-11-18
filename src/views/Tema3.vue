@@ -27,7 +27,7 @@
           img(src='@/assets/curso/tema3/img1.svg')
       .col
         p.mb-0 #[b Beneficios de aplicar el BSC]
-    p.mb-5(data-aos="fade-left") El Balanced Scorecard ayuda a generar resultados en beneficio de la administración de la compañía, siempre y cuando se use la metodología y la aplicación para monitorear y estudiar los indicadores obtenidos del análisis.
+    p.mb-5(data-aos="fade-left") El #[i Balanced Scorecard] ayuda a generar resultados en beneficio de la administración de la compañía, siempre y cuando se use la metodología y la aplicación para monitorear y estudiar los indicadores obtenidos del análisis.
     .row.mb-4
       .col-lg-auto.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -46,7 +46,7 @@
           li 
             i.fas.fa-angle-right(style="color: #FF6D4B")
             |
-            p.mb-0 Redefinición de la estrategia en base a resultados.
+            p.mb-0 Redefinición de la estrategia con base en resultados.
           li 
             i.fas.fa-angle-right(style="color: #FF6D4B")
             |
@@ -87,14 +87,14 @@
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img4.png')})`}")
               .row.fig-p1
                 .col-12.p-2.bg-c1
-                  p.mb-0 #[b Perspectiva de un BSC]
+                  p.mb-0 #[b Perspectiva en el BSC]
       .col-11.col-md-7.col-lg-4.mb-4.mb-lg-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h4.text-center.mb-5 Perspectiva financiera
-              p Durante mucho tiempo los indicadores financieros han sido muy usados ya que muestran lo que está sucediendo con las inversiones y el valor añadido económico, incluso, todas las medidas que forman parte de la relación causa-efecto, culminan en la mejor actuación financiera.
+              p Durante mucho tiempo los indicadores financieros han sido muy usados, ya que muestran lo que está sucediendo con las inversiones y el valor añadido económico, incluso, todas las medidas que forman parte de la relación causa-efecto, culminan en la mejor actuación financiera.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img5.png')})`}")
               .row.fig-p1
                 .col-12.p-2.bg-c1
@@ -128,7 +128,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4
               h4.text-center Perspectiva de aprendizaje y crecimiento
-              p.mb-0 Si desea obtener resultados sostenidos a largo plazo, este ángulo es el que más preocupa. Aquí se determina la infraestructura necesaria para crear valor a largo plazo. La formación y el crecimiento debe lograrse en tres grandes áreas: personas, sistemas y clima organizacional. Suelen ser intangibles, pues son identificadores relacionados con la formación de personal, software o desarrollo, maquinaria, tecnología y todo aquello que se debe potenciar para alcanzar las metas propuestas.
+              p.mb-0 Si desea obtener resultados sostenidos a largo plazo, este ángulo es el que más preocupa. Aquí se determina la infraestructura necesaria para crear valor a largo plazo. La formación y el crecimiento debe lograrse en tres grandes áreas: personas, sistemas y clima organizacional. Suelen ser intangibles, pues son identificadores relacionados con la formación de personal, #[i software] o desarrollo, maquinaria, tecnología y todo aquello que se debe potenciar para alcanzar las metas propuestas.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img8.png')})`}")
               .row.fig-p1
                 .col-12.p-2.bg-c1
@@ -143,7 +143,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-1 CUADRO DE MANDO INTEGRAL (CMI)
-                  p.text-small Para mayor comprensión del tema BSC, es importante consultar el siguiente video, el cual explica brevemente el Cuadro de Mando Integral o Balance Scorecard:
+                  p.text-small Para mayor comprensión del tema BSC, es importante consultar el siguiente video, el cual explica brevemente el Cuadro de Mando Integral o #[i Balance Scorecard]:
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=eyau1IvNuXA" target="_blank")
                     span(style="color:#000 !important") Ver video

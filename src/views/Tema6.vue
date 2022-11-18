@@ -26,7 +26,7 @@
         figure
           img(src='@/assets/curso/tema6/img2.png' style="width: 350px").m-auto
       .col-lg-8.order-1.order-lg-2(data-aos="fade-left")
-        p.mb-4 Según la Norma ISO 31000 (ver norma en anexos), la gestión de riesgos cumple con los siguientes principios: 
+        p.mb-4 Según la Norma ISO 31000 (ver norma en material complementario), la gestión de riesgos cumple con los siguientes principios: 
         ul.lista-ul
           li 
             i.fas.fa-angle-right(style="color: #FF6D4B")

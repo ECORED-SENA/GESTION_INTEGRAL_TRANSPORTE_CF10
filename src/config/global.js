@@ -176,7 +176,7 @@ export default {
     {
       tema: 'Gestión de riesgos',
       referencia:
-        'Iso (2018). <em>Norma Internacional Iso 31000</em>. Segunda edición.',
+        'ISO (2018). <em>Norma Internacional ISO 31000</em>. Segunda edición.',
       tipo: 'PDF',
       descarga: '/downloads/anexo1.pdf',
     },
@@ -190,7 +190,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'KPIs',
+      termino: 'KPI',
       significado:
         'Son Indicadores para cuantificar el desarrollo de una empresa e implementar acciones de mejora continua.',
     },

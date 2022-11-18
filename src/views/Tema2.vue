@@ -18,7 +18,7 @@
             .col-lg-8
               .bloque-texto-a__texto.p-4
                 p.mb-0 Al realizar una adecuada trazabilidad las empresas pueden generar mayor valor a la operación y obtienen información que les permiten tomar decisiones acertadas, corrigiendo las fallas que se presentan en el desarrollo de esta.
-    p.mb-5(data-aos="fade-up") A través de los resultados obtenidos de la trazabilidad se puede alcanzar los siguientes beneficios:
+    p.mb-5(data-aos="fade-up") A través de los resultados obtenidos de la trazabilidad se pueden alcanzar los siguientes beneficios:
     SlyderF(columnas="col-9 col-lg-6 col-xl-4")(data-aos="fade-right")
       .tarjeta.color-acento-contenido.p-4
         .row.justify-content-center.mb-3
@@ -44,7 +44,7 @@
         .row.justify-content-center.mb-3
           .col-6.mb-4
             img(src='@/assets/curso/tema2/img5.svg' alt='AvatarTop' style="width: 120px").m-auto
-        p.text-center Se controla de mejor manera el transporte, dinamizando la gestión de #[i stocks] y así proporcionando mejor servicio.
+        p.text-center Se controla de mejor manera el transporte, dinamizando la gestión de #[i stocks] y así, proporcionar mejor servicio.
       .tarjeta.color-acento-contenido.p-4
         .row.justify-content-center.mb-3
           .col-6.mb-4

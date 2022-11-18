@@ -56,7 +56,7 @@
                       figure
                         img(src='@/assets/curso/tema9/img1.svg')
                     .col
-                      p #[b Es el proceso necesario para sujetar, bloqueando firmemente mediante instrumentos precisos todo tipo todo tipo de mercancías que se transporten con medios marítimos, terrestres o aéreos, buscando prevenir los daños ocasionados por desplazamientos bruscos o volcamientos del contenido.]
+                      p #[b Es el proceso necesario para sujetar, bloqueando firmemente mediante instrumentos precisos todo tipo de mercancías que se transporten con medios marítimos, terrestres o aéreos, buscando prevenir los daños ocasionados por desplazamientos bruscos o volcamientos del contenido.]
     .row.justify-content-center(data-aos="fade-left")
       .col-md-9.col-lg-10.bg-color15
         .row.align-items-center
