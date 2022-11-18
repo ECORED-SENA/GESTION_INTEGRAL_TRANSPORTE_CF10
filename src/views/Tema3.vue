@@ -143,7 +143,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-1 CUADRO DE MANDO INTEGRAL (CMI)
-                  p.text-small Para mayor comprensión del tema BSC, es importante consultar el siguiente video, el cual explica brevemente el Cuadro de Mando Integral o #[i Balance Scorecard]:
+                  p.text-small Para mayor comprensión del tema BSC, es importante consultar el siguiente video, el cual explica brevemente el Cuadro de Mando Integral o #[i Balanced Scorecard]:
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=eyau1IvNuXA" target="_blank")
                     span(style="color:#000 !important") Ver video

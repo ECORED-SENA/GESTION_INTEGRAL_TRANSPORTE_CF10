@@ -185,7 +185,7 @@
                 figure
                   img(src='@/assets/curso/tema1/img5.svg' style="width: 90px").m-auto
               .col-lg
-                p.mb-0 La simulación puede aportar a las empresas una disminución en un 50 % el tiempo de lanzamiento de un producto al mercado (#[i time to market]) y aumentando en un 20% la productividad.
+                p.mb-0 La simulación puede aportar a las empresas una disminución en un 50 % el tiempo de lanzamiento de un producto al mercado (#[i time to market]) y aumentando en un 20 % la productividad.
           .row(titulo="Planificación del futuro")
             .row.justify-content-center.align-items-center
               .col-4.col-lg-auto.mb-4.mb-lg-0
